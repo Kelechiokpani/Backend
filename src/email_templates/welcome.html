@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Nuxalle Inc!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 150px;
+        }
+
+        .header-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header-image img {
+            max-width: 100%;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .unsubscribe {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .unsubscribe a {
+            color: #888888;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888888;
+            margin-top: 20px;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .related-images {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .related-images img {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">
+        <img src="https://nuxalle.vercel.app/assets/logo-light.svg" alt="Nuxalle Logo">
+    </div>
+    <div class="header-image">
+        <img src="./Group.png"  alt="Nuxalle Header Image" style="width: 100%">
+    </div>
+    <div class="content">
+        <h1><%= title %></h1>
+        <p><%= greeting %>,</p>
+        <p>Welcome to  Nuxalle Inc.</p>
+        <p>We are a digital transformation company with a globally distributed team, working collaboratively with clients worldwide. As dedicated experts, we are passionate about creating
+            user-friendly products that address real challenges. Our commitment to excellence guarantees that our services remain of the highest quality</p>
+        <ol>
+            <li>We specialize in creating innovative digital products that solve real-world problems.
+                Our team leverages cutting-edge technology and
+                design principles to develop solutions that meet the unique needs of our clients.
+                From conceptualization to deployment, we ensure that every product we build is of great quality and delivers exceptional value.</li>
+
+            <li>Our IT consulting services are designed to empower businesses with the strategies and tools they need to
+                thrive in a digital world. We offer expert guidance on technology adoption, digital transformation,
+                and IT infrastructure optimization.
+                By reviewing your specific challenges and goals, we provide tailored solutions that enhance efficiency, productivity, and ROI.!</li>
+
+            <li>Our digital services are crafted to elevate your brand and maximize your online presence
+                digital transformation efforts. We provide a comprehensive range of services like digital marketing,
+                experience and interface design, and data analytics.
+                Our approach is results-driven, ensuring that every campaign and project
+                we undertake delivers measurable outcomes and drives business growth.</li>
+        </ol>
+
+        <p>Best regards,</p>
+        <h1>Nuxalle Inc,</h1>
+
+
+    </div>
+    <div class="social-icons">
+        <a href="<%= facebook %>" target="_blank"><img src="https://img.icons8.com/color/48/00000000/facebook-new.png" alt="Facebook"></a>
+        <a href="<%= twitter %>" target="_blank"><img src="https://img.icons8.com/color/48/00000000/twitter-circled--v1.png" alt="Twitter"></a>
+        <a href="<%= instagram %>" target="_blank"><img src="https://img.icons8.com/color/48/00000000/instagram-new--v1.png" alt="Instagram"></a>
+    </div>
+    <div class="button">
+        <a href="https://nuxalle.vercel.app/" target="_blank">Visit our Website</a>
+    </div>
+    <div class="unsubscribe">
+        <a href="mailto:unsubscribe@kreativerock.com">Unsubscribe</a>
+    </div>
+    <div class="footer">
+        <p>Thank you again for choosing Nuxalle Inc!</p>
+        <p>&copy; <%= new Date().getFullYear() %>  Nuxalle Inc. All rights reserved.</p>
+        <p>  Nuxalle Inc | Lagos State| 101283</p>
+    </div>
+</div>
+</body>
+</html>
