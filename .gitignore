@@ -1,9 +1,10 @@
 .env
-/node_modules
 .idea
 /dist
 /media
 /src/.DS_Store
 .env.keys
-
+/.env
+/.env.keys
+/node_modules
 
